@@ -52,6 +52,6 @@ print()
 if s.stackTop() == -1:
     print("Stack is empty!")
 else:
-    print(s.stackTop())
-
+    print("Stack Top is : ",s.stackTop())
+print("Number of elements in the stack: ",s.count)
 print()
